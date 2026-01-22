@@ -25,13 +25,12 @@ export const HeroSection = () => {
             Welcome to my portfolio
           </p>
           <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-6 leading-tight">
-            AI Automation <span className="text-primary">Expert</span>
-            <br />& Builder
+            Automation <span className="text-primary">Expert</span>
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto mb-10">
-            I help businesses save time and grow by using smart AI solutions for
-            webites and automations. I create beautiful, fully working websites
-            in just one day, ready for you to use and update easily.
+            I help businesses save time and grow by building smart automation
+            solutions that simplify workflows and significantly reduce
+            operational costs.
           </p>
 
           <div className="flex items-center justify-center gap-4">

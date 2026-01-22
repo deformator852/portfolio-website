@@ -5,13 +5,12 @@ import { Badge } from "@/components/ui/badge";
 
 const experiences = [
   {
-    title: "AI Automation Specialist",
+    title: "Automation Specialist",
     company: "Freelance",
     period: "2025 - Present",
     description:
-      "Creating high-ROI AI automations + full websites/apps via chat with Lovable.dev and then connect them to Netlify CMS for easy content management. Turn business needs into fast, working solutions using AI agents, n8n workflows, Make/Zapier and top LLMs → serious time & cost savings for clients.",
+      "Delivering high-ROI automations that save businesses significant time and money. I convert real-world needs into fast, scalable solutions with AI agents, n8n workflows, Make.com/Zapier and leading LLMs (Grok, OpenAI, Gemini). Specializing in intelligent systems like automated data handling, multi-tool integrations, and AI decision-making - all built for reliability and easy client handover.",
     skills: [
-      "Lovable",
       "n8n",
       "AI Agents",
       "Grok",
@@ -22,29 +21,28 @@ const experiences = [
       "Make.com",
       "Zappier",
       "Workflow Automation",
-      "React",
-      "Next.js",
       "Node.js",
+      "Python",
     ],
   },
   {
-    title: "Full-Stack Automation Engineer",
+    title: "Automation Engineer",
     company: "ClearFleet",
-    period: "2022 - 2025",
+    period: "2021 - 2025",
     description:
-      "Created efficient Python automation solutions, custom scripts, bots and integration pipelines that eliminated repetitive manual tasks and reduced data processing time by approximately 80%. Additionally designed & built modern responsive websites and web applications using HTML, CSS, JavaScript, React, and Node.js.",
+      "Designed and implemented end-to-end automation workflows and intelligent systems using Python, Node.js, and no-code/low-code platforms (n8n, Make.com, Zapier). Built custom scripts, data pipelines, and AI-powered chatbots leveraging Pandas and AI agents to process and analyze data. Integrated third-party tools and APIs including Airtable and Discord.",
     skills: [
       "Python",
+      "n8n",
+      "Make.com",
+      "Zapier",
       "Pandas",
-      "Playwright",
       "Airtable",
+      "Discord",
       "AI Agents",
       "OpenAI",
       "Chatbots",
-      "HTML",
-      "CSS",
       "Javascript",
-      "React",
       "Node.js",
     ],
   },

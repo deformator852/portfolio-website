@@ -24,9 +24,9 @@ const expertiseAreas = [
   },
   {
     icon: Zap,
-    title: "Web Development",
+    title: "Revenue-Focused Automations",
     description:
-      "Creating websites with Lovable AI, converting them to fully functional apps, and connecting Netlify CMS for content management when needed.",
+      "Creating AI-powered systems that cut manual work, eliminate errors, automate sales/support, and directly increase business revenue.",
   },
   {
     icon: Brain,

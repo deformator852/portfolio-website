@@ -30,22 +30,22 @@ export const AboutSection = () => {
           {/* About Content */}
           <div>
             <h3 className="text-2xl font-semibold text-foreground mb-4">
-              Hello! I'm an AI Automation & Web Specialist
+              Hello! I'm an Automation Engineer
             </h3>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              I specialize in building intelligent automation & web solutions
-              that transform how businesses operate. From simple task automation
-              to complex AI-powered workflows, I help companies eliminate
-              repetitive work and focus on what matters.
+              I specialize in building automation that transform how businesses
+              operate. From simple task automation to complex AI-powered
+              workflows, I help companies eliminate repetitive work and focus on
+              what matters.
             </p>
             <p className="text-muted-foreground mb-8 leading-relaxed">
-              With expertise in no-code/low-code platforms like Lovable, n8n,
-              Make.com, and Zapier, I create custom solutions that integrate
-              seamlessly with your existing tools and scale with your business.
-              My solid foundation in HTML, CSS, JavaScript and Node.js, allows
-              me to write custom code whenever needed - for unique features,
-              performance tweaks, or advanced integrations that go beyond
-              standard no-code capabilities.
+              With expertise in no-code/low-code platforms like n8n, Make.com,
+              and Zapier, I create custom solutions that integrate seamlessly
+              with your existing tools and scale with your business. My solid
+              foundation in Python and Node.js, allows me to write custom code
+              whenever needed - for unique features, performance tweaks, or
+              advanced integrations that go beyond standard no-code
+              capabilities.
             </p>
             <div className="flex flex-wrap gap-4">
               <Card className="bg-background/50 border-border">

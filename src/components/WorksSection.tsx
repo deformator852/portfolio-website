@@ -3,26 +3,29 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const works = [
   {
-    title: "AI Chatbot Integration",
+    title: "Telegram crypto signals automation",
     description:
-      "Automated customer support chatbot using GPT-4 and custom workflows",
-    github: "https://github.com/nikitakostenko/ai-chatbot",
+      "Automated system for sending crypto trading signals via Telegram",
+    github: "https://deformator852.github.io/telegram-crypto-signals-bot/",
   },
   {
-    title: "Data Pipeline Automation",
-    description: "ETL pipeline for processing and analyzing large datasets",
-    github: "https://github.com/nikitakostenko/data-pipeline",
-  },
-  {
-    title: "Workflow Automation Tool",
-    description: "No-code automation platform for business processes using n8n",
-    github: "https://github.com/nikitakostenko/workflow-automation",
-  },
-  {
-    title: "E-commerce Bot",
+    title: "Recruitment Automation System",
     description:
-      "Telegram bot for automated order processing and notifications",
-    github: "https://github.com/nikitakostenko/ecommerce-bot",
+      "This project automates the handling of job applications for a Ukrainian recruitment agency",
+    github:
+      "https://deformator852.github.io/automated-recruitment-application-processing/",
+  },
+  {
+    title: "Landing page for crypto telegram channel ",
+    description:
+      "Landing page for promoting a Telegram channel focused on crypto trading signals",
+    github: "https://deformator852.github.io/profit-plus/",
+  },
+  {
+    title: "Recruitment Agency Website + Automation Bot",
+    description:
+      "A website for a recruitment agency integrated with an automation bot to streamline candidate management",
+    github: "https://deformator852.github.io/recruitment-agency-website/",
   },
 ];
 

@@ -3,21 +3,20 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const tools = [
-  { name: "Lovable", category: "AI App Builder", icon: "💜" },
   { name: "n8n", category: "Workflow Automation", icon: "🔗" },
   { name: "Make.com", category: "Automation Platform", icon: "⚙️" },
   { name: "Zapier", category: "App Integration", icon: "⚡" },
   { name: "OpenAI", category: "AI & LLMs", icon: "🤖" },
   { name: "Gemini", category: "AI & LLMs", icon: "✨" },
   { name: "Grok", category: "AI & LLMs", icon: "🚀" },
+  { name: "Telegram", category: "Messaging & Bots", icon: "✈️" },
+  { name: "Discord", category: "Messaging & Bots", icon: "🎮" },
+  { name: "Google Sheets", category: "Spreadsheet & Data", icon: "📋" },
+  { name: "Notion", category: "Workspace & Notes", icon: "📓" },
   { name: "Airtable", category: "Database", icon: "📊" },
-  { name: "HTML", category: "Markup", icon: "📄" },
-  { name: "CSS", category: "Styling", icon: "🎨" },
   { name: "JavaScript", category: "Programming", icon: "💛" },
+  { name: "Python", category: "Programming", icon: "🐍" },
   { name: "Node.js", category: "Runtime", icon: "🟢" },
-  { name: "React", category: "UI Library", icon: "⚛️" },
-  { name: "Next.js", category: "Framework", icon: "▲" },
-  { name: "Netlify CMS", category: "Framework", icon: "📝" },
 ];
 
 export const ToolsSection = () => {
