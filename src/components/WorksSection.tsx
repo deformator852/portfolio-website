@@ -16,6 +16,12 @@ const works = [
       "https://deformator852.github.io/automated-recruitment-application-processing/",
   },
   {
+    title: "IdeaFlow – Slack → Notion + Airtable n8n Automation",
+    description:
+      "This project quickly captures and stores ideas shared in Slack - no need to switch apps or write long notes.",
+    github: "https://deformator852.github.io/ideaflow-slack-notion-airtable/",
+  },
+  {
     title: "Landing page for crypto telegram channel ",
     description:
       "Landing page for promoting a Telegram channel focused on crypto trading signals",
