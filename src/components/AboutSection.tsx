@@ -35,16 +35,16 @@ export const AboutSection = () => {
             <p className="text-muted-foreground mb-6 leading-relaxed">
               I specialize in building automation that transform how businesses
               operate. From simple task automation to complex AI-powered
-              workflows, I help companies eliminate repetitive work and focus on
-              what matters.
+              workflows, I help eliminate repetitive work and increase revenue.
             </p>
+            <p></p>
             <p className="text-muted-foreground mb-8 leading-relaxed">
               With expertise in no-code/low-code platforms like n8n, Make.com,
               and Zapier, I create custom solutions that integrate seamlessly
               with your existing tools and scale with your business. My solid
-              foundation in Python and Node.js, allows me to write custom code
-              whenever needed - for unique features, performance tweaks, or
-              advanced integrations that go beyond standard no-code
+              foundation in Javascript, allows me to write custom code whether
+              it's for special features, efficiency improvements, or
+              sophisticated integrations that go beyond typical no-code
               capabilities.
             </p>
             <div className="flex flex-wrap gap-4">

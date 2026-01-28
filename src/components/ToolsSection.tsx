@@ -16,6 +16,8 @@ const tools = [
   { name: "Google Sheets", category: "Spreadsheet & Data", icon: "📋" },
   { name: "Notion", category: "Workspace & Notes", icon: "📓" },
   { name: "Airtable", category: "Database", icon: "📊" },
+  { name: "PostgreSQL", category: "Database", icon: "🐘" },
+  { name: "Supabase", category: "Backend & Database", icon: "🗄️" },
   { name: "JavaScript", category: "Programming", icon: "💛" },
   { name: "Node.js", category: "Runtime", icon: "🟢" },
 ];
