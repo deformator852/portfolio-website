@@ -11,27 +11,27 @@ const works = [
   {
     title: "Recruitment Automation System",
     description:
-      "This project automates the handling of job applications for a Ukrainian recruitment agency",
+      "Automates the handling of job applications for a Ukrainian recruitment agency",
     github:
       "https://deformator852.github.io/automated-recruitment-application-processing/",
   },
   {
     title: "IdeaFlow – Slack → Notion + Airtable n8n Automation",
     description:
-      "This project quickly captures and stores ideas shared in Slack - no need to switch apps or write long notes.",
+      "Quickly captures and stores ideas shared in Slack - no need to switch apps or write long notes.",
     github: "https://deformator852.github.io/ideaflow-slack-notion-airtable/",
   },
   {
-    title: "Landing page for crypto telegram channel ",
+    title: "Lead Capturing Automation",
     description:
-      "Landing page for promoting a Telegram channel focused on crypto trading signals",
-    github: "https://deformator852.github.io/profit-plus/",
+      "An automated lead capture system for a recruitment agency with Zapier, Slack and HubSpot",
+    github: "https://deformator852.github.io/zapier-lead-capturing/",
   },
   {
-    title: "Recruitment Agency Website + Automation Bot",
+    title: "Telegram AI Customer Support Bot",
     description:
-      "A website for a recruitment agency integrated with an automation bot to streamline candidate management",
-    github: "https://deformator852.github.io/recruitment-agency-website/",
+      "An AI-powered customer support bot for Telegram that handles user inquiries automatically",
+    github: "https://deformator852.github.io/telegram-ai-customer-support/",
   },
 ];
 

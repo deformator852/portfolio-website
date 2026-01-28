@@ -19,7 +19,6 @@ const experiences = [
       "Slack",
       "Notion",
       "Telegram",
-      "Discord",
       "Airtable",
       "Javascript",
       "Make.com",
@@ -34,7 +33,7 @@ const experiences = [
     company: "ClearFleet",
     period: "2021 - 2025",
     description:
-      "Designed and implemented end-to-end automation workflows and intelligent systems using Python, Node.js, and no-code/low-code platforms (n8n, Make.com, Zapier). Built custom scripts, data pipelines, and AI-powered chatbots leveraging Pandas and AI agents to process and analyze data. Integrated third-party tools and APIs including Airtable and Discord.",
+      "Designed and implemented end-to-end automation workflows and intelligent systems using Python, Node.js, and no-code/low-code platforms (n8n, Make.com, Zapier). Built custom scripts, data pipelines, and AI-powered chatbots leveraging Pandas and AI agents to process and analyze data. Integrated third-party tools and APIs including Airtable",
     skills: [
       "Python",
       "n8n",
@@ -42,7 +41,6 @@ const experiences = [
       "Zapier",
       "Pandas",
       "Airtable",
-      "Discord",
       "AI Agents",
       "OpenAI",
       "Chatbots",

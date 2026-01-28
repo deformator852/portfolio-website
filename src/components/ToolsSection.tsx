@@ -10,7 +10,6 @@ const tools = [
   { name: "Gemini", category: "AI & LLMs", icon: "✨" },
   { name: "Grok", category: "AI & LLMs", icon: "🚀" },
   { name: "Telegram", category: "Messaging & Bots", icon: "✈️" },
-  { name: "Discord", category: "Messaging & Bots", icon: "🎮" },
   { name: "WhatsApp", category: "Messaging & Bots", icon: "💬" },
   { name: "Messenger", category: "Messaging & Bots", icon: "📱" },
   { name: "Slack", category: "Messaging & Bots", icon: "💼" },
@@ -18,7 +17,6 @@ const tools = [
   { name: "Notion", category: "Workspace & Notes", icon: "📓" },
   { name: "Airtable", category: "Database", icon: "📊" },
   { name: "JavaScript", category: "Programming", icon: "💛" },
-  { name: "Python", category: "Programming", icon: "🐍" },
   { name: "Node.js", category: "Runtime", icon: "🟢" },
 ];
 

@@ -11,12 +11,6 @@ const contactLinks = [
     href: "mailto:kostneko30@gmail.com",
   },
   {
-    icon: Send,
-    label: "Telegram",
-    value: "@ghoilcsd",
-    href: "https://t.me/ghoilcsd",
-  },
-  {
     icon: Linkedin,
     label: "LinkedIn",
     value: "Nikita Kostenko",
@@ -39,7 +33,7 @@ export const ContactSection = () => {
         </div>
 
         <div className="max-w-3xl mx-auto">
-          <div className="grid gap-6 sm:grid-cols-3">
+          <div className="grid gap-6 sm:grid-cols-2">
             {contactLinks.map((contact) => (
               <a
                 key={contact.label}
