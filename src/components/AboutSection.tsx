@@ -40,12 +40,11 @@ export const AboutSection = () => {
             <p></p>
             <p className="text-muted-foreground mb-8 leading-relaxed">
               With expertise in no-code/low-code platforms like n8n, Make.com,
-              and Zapier, I create custom solutions that integrate seamlessly
-              with your existing tools and scale with your business. My solid
-              foundation in Javascript, allows me to write custom code whether
-              it's for special features, efficiency improvements, or
-              sophisticated integrations that go beyond typical no-code
-              capabilities.
+              and Zapier, combined with programming skills, I create custom
+              solutions that save you time and make simplify your work. My solid
+              foundation in Python and JavaScript allows me to write custom code
+              for special features, efficiency improvements, or sophisticated
+              integrations that go beyond typical no-code capabilities.
             </p>
             <div className="flex flex-wrap gap-4">
               <Card className="bg-background/50 border-border">

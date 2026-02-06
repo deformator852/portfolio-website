@@ -1,13 +1,36 @@
-"use client";
-
 import { Card, CardContent } from "@/components/ui/card";
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 import { useState } from "react";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "./ui/tabs";
-import { Make, N8n, Zapier, OpenAI, Gemini, Grok } from "@lobehub/icons";
 import Telegram from "./ui/telegram";
 import WhatsApp from "./ui/whatsapp";
 import FacebookMessenger from "./ui/facebook-messenger";
+import SlackIcon from "./ui/slack";
+import DiscordIcon from "./ui/discord";
+import GoogleSheets from "./ui/google-sheets";
+import {
+  Make,
+  N8n,
+  Zapier,
+  OpenAI,
+  Gemini,
+  Claude,
+  Notion,
+  Insta,
+} from "@lobehub/icons";
+import GmailIcon from "./ui/google-email";
+import GoogleDriveIcon from "./ui/google-drive";
+import AirtableIcon from "./ui/airtable";
+import PostgreSQLIcon from "./ui/postgresql";
+import SupabaseIcon from "./ui/supabase";
+import PocketBaseIcon from "./ui/pocketbase";
+import SQLiteIcon from "./ui/sqlite";
+import JavaScriptIcon from "./ui/javascript";
+import NodeJSIcon from "./ui/nodejs";
+import PythonIcon from "./ui/python";
+import DjangoIcon from "./ui/django";
+import InstagramIcon from "./ui/instagram";
+
 const tools = [
   {
     name: "n8n",
@@ -30,7 +53,11 @@ const tools = [
     category: "AI",
     icon: <Gemini.Color size={24}></Gemini.Color>,
   },
-  { name: "Grok", category: "AI", icon: <Grok size={24}></Grok> },
+  {
+    name: "Claude",
+    category: "AI",
+    icon: <Claude.Color size={24}></Claude.Color>,
+  },
   {
     name: "Telegram",
     category: "Messaging & Bots",
@@ -42,22 +69,74 @@ const tools = [
     icon: <WhatsApp size={24}></WhatsApp>,
   },
   {
+    name: "Instagram",
+    category: "Messaging & Bots",
+    icon: <InstagramIcon size={24}></InstagramIcon>,
+  },
+  {
     name: "Messenger",
     category: "Messaging & Bots",
     icon: <FacebookMessenger size={24}></FacebookMessenger>,
   },
-  // { name: "Slack", category: "Messaging & Bots", icon: "💼" },
-  // { name: "Google Sheets", category: "Google Workspace", icon: "📋" },
-  // { name: "Gmail", category: "Google Workspace", icon: "📧" },
-  // { name: "Google Drive", category: "Google Workspace", icon: "🗂️" },
-  // { name: "Notion", category: "Workspace & Notes", icon: "📓" },
-  // { name: "Airtable", category: "Database", icon: "📊" },
-  // { name: "PostgreSQL", category: "Database", icon: "🐘" },
-  // { name: "Supabase", category: "Database", icon: "🗄️" },
-  // { name: "Pocketbase", category: "Database", icon: "🗄️" },
-  // { name: "SQLite", category: "Database", icon: "🗄️" },
-  // { name: "JavaScript", category: "Programming", icon: "💛" },
-  // { name: "Node.js", category: "Programming", icon: "🟢" },
+  {
+    name: "Slack",
+    category: "Messaging & Bots",
+    icon: <SlackIcon size={24}></SlackIcon>,
+  },
+  {
+    name: "Discord",
+    category: "Messaging & Bots",
+    icon: <DiscordIcon size={24}></DiscordIcon>,
+  },
+  {
+    name: "Sheets",
+    category: "Google Workspace",
+    icon: <GoogleSheets size={24}></GoogleSheets>,
+  },
+  {
+    name: "Gmail",
+    category: "Google Workspace",
+    icon: <GmailIcon size={24}></GmailIcon>,
+  },
+  {
+    name: "Google Drive",
+    category: "Google Workspace",
+    icon: <GoogleDriveIcon size={24}></GoogleDriveIcon>,
+  },
+  {
+    name: "Notion",
+    category: "Workspace & Notes",
+    icon: <Notion size={24}></Notion>,
+  },
+  {
+    name: "Airtable",
+    category: "Database",
+    icon: <AirtableIcon size={24}></AirtableIcon>,
+  },
+  {
+    name: "PostgreSQL",
+    category: "Database",
+    icon: <PostgreSQLIcon size={24}></PostgreSQLIcon>,
+  },
+  {
+    name: "Supabase",
+    category: "Database",
+    icon: <SupabaseIcon size={24}></SupabaseIcon>,
+  },
+  {
+    name: "Pocketbase",
+    category: "Database",
+    icon: <PocketBaseIcon size={24} />,
+  },
+  { name: "SQLite", category: "Database", icon: <SQLiteIcon size={24} /> },
+  {
+    name: "JavaScript",
+    category: "Programming",
+    icon: <JavaScriptIcon size={24} />,
+  },
+  { name: "Node.js", category: "Programming", icon: <NodeJSIcon size={24} /> },
+  { name: "Python", category: "Programming", icon: <PythonIcon size={24} /> },
+  { name: "Django", category: "Programming", icon: <DjangoIcon size={24} /> },
 ];
 const categories = [
   "All",
