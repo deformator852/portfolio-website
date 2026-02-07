@@ -143,7 +143,6 @@ const categories = [
   "AI",
   "Automation",
   "Database",
-  "Development",
   "Messaging & Bots",
   "Programming",
   "Google Workspace",
