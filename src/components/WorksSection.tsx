@@ -33,6 +33,12 @@ const works = [
       "An AI-powered customer support bot for Telegram that handles user inquiries automatically",
     github: "https://deformator852.github.io/telegram-ai-customer-support/",
   },
+  {
+    title: "Zapier Instagram AI Posting Bot",
+    description:
+      "This project is an AI workflow that creates captions for Instagram posts using OpenAI and publishes them automatically.",
+    github: "https://deformator852.github.io/zapier-instagram-ai-posting/",
+  },
 ];
 
 export const WorksSection = () => {
@@ -43,7 +49,7 @@ export const WorksSection = () => {
           Works
         </h2>
         <p className="text-muted-foreground text-center mb-12 max-w-2xl mx-auto">
-          Projects I've built and contributed to
+          Projects I've built
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
